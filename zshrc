@@ -5,6 +5,7 @@ fi
 
 # close terminal when tmux closes
 if [ -z "$TMUX" ];then
+    tmux kill-session -a
     exit
 fi
 
