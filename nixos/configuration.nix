@@ -40,6 +40,11 @@
      shell = pkgs.zsh; # Default shell
    };
 
+ users.users.gdm = {
+    isSystemUser = true;
+    shell = "/bin/sh";
+  };
+
   #### List packages installed in system profile ####
   environment.systemPackages = with pkgs; [
      wget
