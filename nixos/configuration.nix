@@ -66,6 +66,7 @@
      gnome-tour 
      gnome-user-docs
      pkgs.gnome-shell-extensions
+     gnome-backgrounds
   ]; # Exclude some gnome system applications
 
   #### Virtualization/Containerization ####
